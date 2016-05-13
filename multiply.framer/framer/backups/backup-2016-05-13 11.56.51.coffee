@@ -1,0 +1,59 @@
+# Set device background 
+Framer.Device.background.backgroundColor = "#FF96A8"
+
+# Import file "multiply" (sizes and positions are scaled 1:2)
+sketch = Framer.Importer.load("imported/multiply@2x")
+
+# Utils.globalLayers(sketch)
+# 
+# Reset Animation Options
+Framer.Defaults.Animation =
+	curve: "spring(400,40,0)"
+
+# Colors
+colors = ["#F95B26", "#FF96A8", "#FFDB09", "#06AFE0", "#76C75E"]
+
+ball = new Layer
+	height: 400
+	width: 400
+	borderRadius: "50%"
+	backgroundColor: colors[0]
+	x: Align.center
+	y: 0
+	style:
+		"mix-blend-mode": "multiply"
+
+ballA = ball.copy()
+ballA.style = "mix-blend-mode": "multiply"
+ballA.backgroundColor = colors[1]
+ballA.y = ball.y + 100
+
+ballB = ball.copy()
+ballB.style = "mix-blend-mode": "multiply"
+ballB.backgroundColor = colors[2]
+ballB.y = ball.y + 200
+
+ballC = ball.copy()
+ballC.style = "mix-blend-mode": "multiply"
+ballC.backgroundColor = colors[3]
+ballC.y = ball.y + 300
+
+ballD = ball.copy()
+ballD.style = "mix-blend-mode": "multiply"
+ballD.backgroundColor = colors[4]
+ballD.y = ball.y + 400
+
+
+ball.draggable.enabled = true
+ball.draggable.constraints =
+	x: 0
+	y: 0
+	width: Screen.width
+	height: Screen.height
+	
+
+ball.on "change:y", ->
+	ballA.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * .3]
+	ballB.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * .6]
+	ballC.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * 1.3]
+	ballD.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * 1.6]
