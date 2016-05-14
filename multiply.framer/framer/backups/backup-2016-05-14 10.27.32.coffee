@@ -1,10 +1,11 @@
 # Set device background 
-Framer.Device.background.backgroundColor = "#FF96A8"
+Framer.Device.background.backgroundColor = "FEFFDF"
 
-Screen.backgroundColor = "#FEFFDF"
+# Import file "multiply" (sizes and positions are scaled 1:2)
+sketch = Framer.Importer.load("imported/multiply@2x")
 
 # Colors
-colors = ["#FF96A8", "#06AFE0", "#76C75E", "#F95B26", "#FFDB09"]
+colors = ["#FFDB09", "#06AFE0", "#76C75E", "#F95B26", "#FF96A8"]
 
 ###
 Commented is my original code, the solution provided by Robert M http://share.framerjs.com/i1pwuf9kzc9p/ is far more elegant
@@ -50,12 +51,12 @@ Commented is my original code, the solution provided by Robert M http://share.fr
 # 	ballB.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * .5]
 # 	ballC.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * .75]
 
-for i in [0 ... colors.length]
+for i in [0..4]
 	circle = new Layer
 		x: Align.center
 		width: 400, height: 400
 		borderRadius: "50%"
-		backgroundColor: colors[i]
+		backgroundColor: "rgba(" + Utils.randomNumber(0,255) + ", " + Utils.randomNumber(0,255) + ", " + Utils.randomNumber(0,255) + ", 1)"
 		style:
 			"mix-blend-mode": "multiply"
 			
@@ -65,5 +66,4 @@ for i in [0 ... colors.length]
 	
 	circle.on Events.Move, ->
 		for j in [0...this.siblings.length]
-				this.siblings[j].y = this.y * (j/this.siblings.length)
-
+			this.siblings[j].y = this.y * (j/this.siblings.length)

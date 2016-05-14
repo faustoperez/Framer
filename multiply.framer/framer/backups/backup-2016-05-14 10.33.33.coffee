@@ -4,7 +4,7 @@ Framer.Device.background.backgroundColor = "#FF96A8"
 Screen.backgroundColor = "#FEFFDF"
 
 # Colors
-colors = ["#FF96A8", "#06AFE0", "#76C75E", "#F95B26", "#FFDB09"]
+colors = ["#FFDB09", "#06AFE0", "#76C75E", "#F95B26", "#FF96A8"]
 
 ###
 Commented is my original code, the solution provided by Robert M http://share.framerjs.com/i1pwuf9kzc9p/ is far more elegant

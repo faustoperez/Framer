@@ -1,10 +1,11 @@
 # Set device background 
 Framer.Device.background.backgroundColor = "#FF96A8"
 
-Screen.backgroundColor = "#FEFFDF"
+backgroundA = new BackgroundLayer
+	backgroundColor: "rgba(254,255,223,1)"
 
 # Colors
-colors = ["#FF96A8", "#06AFE0", "#76C75E", "#F95B26", "#FFDB09"]
+colors = ["#FFDB09", "#06AFE0", "#76C75E", "#F95B26", "#FF96A8"]
 
 ###
 Commented is my original code, the solution provided by Robert M http://share.framerjs.com/i1pwuf9kzc9p/ is far more elegant
@@ -50,7 +51,7 @@ Commented is my original code, the solution provided by Robert M http://share.fr
 # 	ballB.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * .5]
 # 	ballC.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * .75]
 
-for i in [0 ... colors.length]
+for i in [0..4]
 	circle = new Layer
 		x: Align.center
 		width: 400, height: 400
@@ -65,5 +66,6 @@ for i in [0 ... colors.length]
 	
 	circle.on Events.Move, ->
 		for j in [0...this.siblings.length]
+			if (!backgroundA)
 				this.siblings[j].y = this.y * (j/this.siblings.length)
 
