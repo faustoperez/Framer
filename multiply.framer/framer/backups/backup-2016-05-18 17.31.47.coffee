@@ -59,6 +59,8 @@ for i in [0 ... colors.length]
 		backgroundColor: colors[i]
 		style:
 			"mix-blend-mode": "multiply"
+	
+	if (@name = "circle1")
 			
 	circle.draggable.enabled = yes
 	circle.draggable.constraints = Screen.frame

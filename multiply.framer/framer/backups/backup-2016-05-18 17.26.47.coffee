@@ -52,7 +52,7 @@ colors = ["#FF96A8", "#06AFE0", "#76C75E", "#F95B26", "#FFDB09"]
 
 for i in [0 ... colors.length]
 	circle = new Layer
-		name: "circle#{i+1}"
+		name: "circle#{i}"
 		x: Align.center
 		width: 400, height: 400
 		borderRadius: "50%"

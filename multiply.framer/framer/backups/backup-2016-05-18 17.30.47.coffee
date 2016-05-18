@@ -60,9 +60,9 @@ for i in [0 ... colors.length]
 		style:
 			"mix-blend-mode": "multiply"
 			
-	circle.draggable.enabled = yes
-	circle.draggable.constraints = Screen.frame
-	circle.draggable.horizontal = no
+circle.draggable.enabled = yes
+circle.draggable.constraints = Screen.frame
+circle.draggable.horizontal = no
 	
 	circle.on Events.Move, ->
 		for j in [0...this.siblings.length]

@@ -50,21 +50,20 @@ colors = ["#FF96A8", "#06AFE0", "#76C75E", "#F95B26", "#FFDB09"]
 # 	ballB.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * .5]
 # 	ballC.y = Utils.modulate @y, [0, Screen.height], [0, Screen.height * .75]
 
-for i in [0 ... colors.length]
-	circle = new Layer
-		name: "circle#{i+1}"
-		x: Align.center
-		width: 400, height: 400
-		borderRadius: "50%"
-		backgroundColor: colors[i]
-		style:
-			"mix-blend-mode": "multiply"
-			
-	circle.draggable.enabled = yes
-	circle.draggable.constraints = Screen.frame
-	circle.draggable.horizontal = no
-	
-	circle.on Events.Move, ->
-		for j in [0...this.siblings.length]
-				this.siblings[j].y = this.y * (j/this.siblings.length)
+# for i in [0 ... colors.length]
+# 	circle = new Layer
+# 		x: Align.center
+# 		width: 400, height: 400
+# 		borderRadius: "50%"
+# 		backgroundColor: colors[i]
+# 		style:
+# 			"mix-blend-mode": "multiply"
+# 			
+# 	circle.draggable.enabled = yes
+# 	circle.draggable.constraints = Screen.frame
+# 	circle.draggable.horizontal = no
+# 	
+# 	circle.on Events.Move, ->
+# 		for j in [0...this.siblings.length]
+# 				this.siblings[j].y = this.y * (j/this.siblings.length)
 

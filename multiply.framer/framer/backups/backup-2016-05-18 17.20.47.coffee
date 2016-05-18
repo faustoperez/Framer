@@ -6,9 +6,9 @@ Screen.backgroundColor = "#FEFFDF"
 # Colors
 colors = ["#FF96A8", "#06AFE0", "#76C75E", "#F95B26", "#FFDB09"]
 
-# 
-# Commented is my original code, the solution provided by Robert M http://share.framerjs.com/i1pwuf9kzc9p/ is far more elegant
-# 
+###
+Commented is my original code, the solution provided by Robert M http://share.framerjs.com/i1pwuf9kzc9p/ is far more elegant
+###
 
 # ball = new Layer
 # 	height: 425
@@ -37,7 +37,7 @@ colors = ["#FF96A8", "#06AFE0", "#76C75E", "#F95B26", "#FFDB09"]
 # ballD.style = "mix-blend-mode": "multiply"
 # 
 # ball.draggable.enabled = true
-# # ball.draggable.horizontal = false
+# ball.draggable.horizontal = false
 # ball.draggable.constraints =
 # 	x: 0
 # 	y: 0
@@ -52,7 +52,6 @@ colors = ["#FF96A8", "#06AFE0", "#76C75E", "#F95B26", "#FFDB09"]
 
 for i in [0 ... colors.length]
 	circle = new Layer
-		name: "circle#{i+1}"
 		x: Align.center
 		width: 400, height: 400
 		borderRadius: "50%"
