@@ -1,4 +1,4 @@
-bg = new BackgroundLayer
+ºbg = new BackgroundLayer
 	backgroundColor: "#f5f5f5"
 
 # Create the button

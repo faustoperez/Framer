@@ -11,3 +11,5 @@ http://share.framerjs.com/njtdbgzk2qbm/
 Exercise from the Jay Stakelon Framer course
 
 http://share.framerjs.com/kzyw1jbwofet/
+
+![Framer Material Button](/img/framer_material_button.gif?raw=true "Framer Material Button")
