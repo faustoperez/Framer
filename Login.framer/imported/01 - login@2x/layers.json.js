@@ -1,0 +1,199 @@
+window.__imported__ = window.__imported__ || {};
+window.__imported__["01 - login@2x/layers.json.js"] = [
+	{
+		"objectId": "9B1055B2-F560-477B-9E63-50289499E60A",
+		"kind": "artboard",
+		"name": "Login",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 1296,
+			"y": 194,
+			"width": 375,
+			"height": 667
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(104.99999999999999, 216.00000000000009, 234, 1)",
+		"children": [
+			{
+				"objectId": "634A3C07-075E-488A-9DCD-FE98A881B9BE",
+				"kind": "group",
+				"name": "logo",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 39,
+					"y": 52,
+					"width": 48,
+					"height": 38
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-logo-njm0qtnd.png",
+					"frame": {
+						"x": 39,
+						"y": 52,
+						"width": 48,
+						"height": 38
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "4ACB8202-6CFE-42D9-9AD5-5A8ED5E8393F",
+				"kind": "text",
+				"name": "username",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 39,
+					"y": 291,
+					"width": 75,
+					"height": 9
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "username",
+					"css": [
+						"/* username: */",
+						"font-family: Karla-Bold;",
+						"font-size: 16px;",
+						"color: #0E0E11;",
+						"letter-spacing: 0px;",
+						"line-height: 15px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-username-nefdqjgy.png",
+					"frame": {
+						"x": 39,
+						"y": 291,
+						"width": 75,
+						"height": 9
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "ECC32F4D-CD7A-4752-A696-4E2D59FF8BED",
+				"kind": "text",
+				"name": "password",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 39,
+					"y": 368,
+					"width": 71,
+					"height": 15
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "password",
+					"css": [
+						"/* password: */",
+						"font-family: Karla-Bold;",
+						"font-size: 16px;",
+						"color: #0E0E11;",
+						"letter-spacing: 0px;",
+						"line-height: 15px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-password-rundmzjg.png",
+					"frame": {
+						"x": 39,
+						"y": 368,
+						"width": 71,
+						"height": 15
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "A69B8EDB-CBE9-45A8-A7B9-83C6BCA81E89",
+				"kind": "group",
+				"name": "button",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 25,
+					"y": 432,
+					"width": 325,
+					"height": 167
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-button-qty5qjhf.png",
+					"frame": {
+						"x": 25,
+						"y": 432,
+						"width": 325,
+						"height": 167
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "B7A828D8-815F-4379-BDF2-AA047975B596",
+				"kind": "group",
+				"name": "bgForm",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 216,
+					"width": 375,
+					"height": 280
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-bgForm-qjdbodi4.png",
+					"frame": {
+						"x": 0,
+						"y": 216,
+						"width": 375,
+						"height": 280
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "9E6FDAA3-ABB3-40A7-8B98-4CA35E17C4F6",
+				"kind": "group",
+				"name": "bg",
+				"maskFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 667
+				},
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 667
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-bg-ouu2rkrb.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 375,
+						"height": 667
+					}
+				},
+				"children": []
+			}
+		]
+	}
+]
