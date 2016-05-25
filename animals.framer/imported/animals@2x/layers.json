@@ -1,0 +1,269 @@
+[
+	{
+		"objectId": "08B507AD-F89A-4C7C-8B02-856C09A9500D",
+		"kind": "artboard",
+		"name": "animals",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": -445,
+			"y": -1176,
+			"width": 1024,
+			"height": 1366
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(241.37316645408166, 238.42076424445548, 238.42076424445548, 1)",
+		"children": [
+			{
+				"objectId": "283492F1-BFFB-4354-AC27-15BD328053B3",
+				"kind": "text",
+				"name": "vulture",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 282,
+					"y": 1049,
+					"width": 461,
+					"height": 192
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1,
+					"string": "vulture",
+					"css": [
+						"/* vulture: */",
+						"font-family: FuturaPT-Heavy;",
+						"font-size: 150px;",
+						"color: #262626;",
+						"letter-spacing: -2px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-vulture-mjgzndky.png",
+					"frame": {
+						"x": 282,
+						"y": 1049,
+						"width": 461,
+						"height": 192
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "0720A2E1-47BF-48BC-A3C5-1F13AC5CC3A8",
+				"kind": "group",
+				"name": "sm_triangle1",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 109,
+					"y": 123,
+					"width": 145,
+					"height": 145
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-sm_triangle1-mdcymeey.png",
+					"frame": {
+						"x": 109,
+						"y": 123,
+						"width": 145,
+						"height": 145
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "53C8794E-1473-4187-8299-70769A333D22",
+				"kind": "group",
+				"name": "big_triangle2",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 247,
+					"y": 469,
+					"width": 292,
+					"height": 291
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-big_triangle2-ntndodc5.png",
+					"frame": {
+						"x": 247,
+						"y": 469,
+						"width": 292,
+						"height": 291
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "AEA3E280-26F0-4E0A-8D5D-BC79B452D7A3",
+				"kind": "group",
+				"name": "parallelogram",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 525,
+					"y": 748,
+					"width": 306,
+					"height": 104
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-parallelogram-quvbm0uy.png",
+					"frame": {
+						"x": 525,
+						"y": 748,
+						"width": 306,
+						"height": 104
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "5DF0BF39-1BC4-4F1D-B410-E44BFCEB35BC",
+				"kind": "group",
+				"name": "md_triangle",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 339,
+					"y": 703,
+					"width": 289,
+					"height": 148
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-md_triangle-nurgmejg.png",
+					"frame": {
+						"x": 339,
+						"y": 703,
+						"width": 289,
+						"height": 148
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "69300239-425E-4836-80A4-C17D41A59233",
+				"kind": "group",
+				"name": "square",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 283,
+					"y": 605,
+					"width": 204,
+					"height": 204
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-square-njkzmday.png",
+					"frame": {
+						"x": 283,
+						"y": 605,
+						"width": 204,
+						"height": 204
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "865AE0A2-A654-4965-82E8-CD1359DDF48B",
+				"kind": "group",
+				"name": "big_triangle1",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 248,
+					"y": 182,
+					"width": 291,
+					"height": 290
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-big_triangle1-ody1quuw.png",
+					"frame": {
+						"x": 248,
+						"y": 182,
+						"width": 291,
+						"height": 290
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "D32C78DC-790A-4BEB-AD89-2CB9926F8238",
+				"kind": "group",
+				"name": "sm_triangle2",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 147,
+					"y": 401,
+					"width": 103,
+					"height": 202
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-sm_triangle2-rdmyqzc4.png",
+					"frame": {
+						"x": 147,
+						"y": 401,
+						"width": 103,
+						"height": 202
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "508D4E07-9ED0-4D34-BB31-F79989847B6A",
+				"kind": "text",
+				"name": "kangaroo",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 195,
+					"y": 1086,
+					"width": 640,
+					"height": 145
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "kangaroo",
+					"css": [
+						"/* kangaroo: */",
+						"font-family: FuturaPT-Heavy;",
+						"font-size: 150px;",
+						"color: #262626;",
+						"letter-spacing: -2px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-kangaroo-nta4rdrf.png",
+					"frame": {
+						"x": 195,
+						"y": 1086,
+						"width": 640,
+						"height": 145
+					}
+				},
+				"children": []
+			}
+		]
+	}
+]

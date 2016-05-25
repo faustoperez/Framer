@@ -1,0 +1,64 @@
+app.coffee
+framer/backups/backup-2016-05-25 17.32.17.coffee
+framer/backups/backup-2016-05-25 17.33.17.coffee
+framer/backups/backup-2016-05-25 17.35.17.coffee
+framer/backups/backup-2016-05-25 17.36.17.coffee
+framer/backups/backup-2016-05-25 17.38.17.coffee
+framer/backups/backup-2016-05-25 17.41.17.coffee
+framer/backups/backup-2016-05-25 17.42.17.coffee
+framer/backups/backup-2016-05-25 17.43.17.coffee
+framer/backups/backup-2016-05-25 17.44.17.coffee
+framer/backups/backup-2016-05-25 17.46.17.coffee
+framer/backups/backup-2016-05-25 17.47.17.coffee
+framer/backups/backup-2016-05-25 17.48.17.coffee
+framer/backups/backup-2016-05-25 17.49.17.coffee
+framer/backups/backup-2016-05-25 17.50.17.coffee
+framer/backups/backup-2016-05-25 17.51.17.coffee
+framer/backups/backup-2016-05-25 17.52.16.coffee
+framer/backups/backup-2016-05-25 17.53.16.coffee
+framer/backups/backup-2016-05-25 17.54.16.coffee
+framer/backups/backup-2016-05-25 17.55.16.coffee
+framer/backups/backup-2016-05-25 17.56.16.coffee
+framer/backups/backup-2016-05-25 17.57.16.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/style.css
+framer/version
+imported/animals@2x/images/Layer-big_triangle1-ody1quuw.png
+imported/animals@2x/images/Layer-big_triangle2-ntndodc5.png
+imported/animals@2x/images/Layer-kangaroo-nta4rdrf.png
+imported/animals@2x/images/Layer-md_triangle-nurgmejg.png
+imported/animals@2x/images/Layer-parallelogram-quvbm0uy.png
+imported/animals@2x/images/Layer-sm_triangle1-mdcymeey.png
+imported/animals@2x/images/Layer-sm_triangle2-rdmyqzc4.png
+imported/animals@2x/images/Layer-square-njkzmday.png
+imported/animals@2x/images/Layer-vulture-mjgzndky.png
+imported/animals@2x/layers.json
+imported/animals@2x/layers.json.js
+index.html
+modules/myModule.coffee
