@@ -32,7 +32,6 @@ sketch.big_triangle2.states.add
 sketch.square.states.add
 	vulture:
 		x: 1330
-		rotation: 0
 		y: 440
 
 sketch.md_triangle.states.add
@@ -68,7 +67,6 @@ sketch.vulture.states.add
 	vulture:
 		opacity: 1
 		y: 2085
-		x: 564
 
 sketch.animals.on Events.Click, ->
 	for layer in sketch.animals.subLayers

@@ -273,9 +273,9 @@ window.__imported__["animals@2x/layers.json.js"] = [
 	}
 ]
 if (typeof(DeviceComponent) !== "undefined") {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-ipad-pro-space-gray","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-ipad-pro-silver","contentScale":1,"orientation":0};
 
-window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-ipad-pro-space-gray","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-ipad-pro-silver","contentScale":1,"orientation":0};
 
 window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"animals.framer"};
 
