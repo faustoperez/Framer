@@ -5,10 +5,12 @@ sketch = Framer.Importer.load("imported/animals@2x")
 Framer.Device.background.backgroundColor = "#0098B3"
 
 bg = new BackgroundLayer
-	backgroundColor: "rgba(241,238,238,1)"
+	backgroundColor: "rgba(240,240,255,1)"
 	
 Framer.Defaults.Animation =
    curve: "spring(200,20,0)"
+
+# Set initial states for layers
 	
 for layer in sketch.animals.subLayers
 	layer.style = "mix-blend-mode": "multiply"
@@ -16,6 +18,8 @@ for layer in sketch.animals.subLayers
 sketch.vulture.visible = true
 sketch.vulture.opacity = 0
 sketch.vulture.y = Screen.height
+
+# States
 
 sketch.big_triangle1.states.add
 	vulture:
@@ -67,6 +71,8 @@ sketch.vulture.states.add
 	vulture:
 		opacity: 1
 		y: 2085
+		
+ # Events
 
 sketch.animals.on Events.Click, ->
 	for layer in sketch.animals.subLayers
