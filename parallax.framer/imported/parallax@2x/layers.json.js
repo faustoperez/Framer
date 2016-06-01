@@ -9,7 +9,7 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 			"x": -529,
 			"y": 102,
 			"width": 375,
-			"height": 1000
+			"height": 1334
 		},
 		"visible": true,
 		"metadata": {},
@@ -21,10 +21,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 				"name": "content",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": -76,
-					"y": -180,
-					"width": 527,
-					"height": 1515
+					"x": -15,
+					"y": -150,
+					"width": 405,
+					"height": 1498
 				},
 				"visible": true,
 				"metadata": {
@@ -32,15 +32,41 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 				},
 				"children": [
 					{
+						"objectId": "8E2196C1-9275-4565-9180-D0D0076F7210",
+						"kind": "group",
+						"name": "text",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 35,
+							"y": 819,
+							"width": 295,
+							"height": 477
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-text-oeuymtk2.png",
+							"frame": {
+								"x": 35,
+								"y": 819,
+								"width": 295,
+								"height": 477
+							}
+						},
+						"children": []
+					},
+					{
 						"objectId": "1C587413-9DF5-475B-B7DE-E2D28654FC69",
 						"kind": "group",
 						"name": "trees1",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -42,
-							"y": 637,
-							"width": 458,
-							"height": 698
+							"x": -10,
+							"y": 626,
+							"width": 395,
+							"height": 717
 						},
 						"visible": true,
 						"metadata": {
@@ -49,10 +75,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-trees1-mum1odc0.png",
 							"frame": {
-								"x": -42,
-								"y": 637,
-								"width": 458,
-								"height": 698
+								"x": -10,
+								"y": 626,
+								"width": 395,
+								"height": 717
 							}
 						},
 						"children": []
@@ -63,10 +89,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "trees2",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -42,
-							"y": 577,
-							"width": 458,
-							"height": 758
+							"x": -10,
+							"y": 566,
+							"width": 395,
+							"height": 777
 						},
 						"visible": true,
 						"metadata": {
@@ -75,10 +101,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-trees2-q0m4q0y4.png",
 							"frame": {
-								"x": -42,
-								"y": 577,
-								"width": 458,
-								"height": 758
+								"x": -10,
+								"y": 566,
+								"width": 395,
+								"height": 777
 							}
 						},
 						"children": []
@@ -89,10 +115,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "trees3",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -42,
-							"y": 517,
-							"width": 458,
-							"height": 818
+							"x": -10,
+							"y": 506,
+							"width": 395,
+							"height": 837
 						},
 						"visible": true,
 						"metadata": {
@@ -101,10 +127,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-trees3-rjvemtze.png",
 							"frame": {
-								"x": -42,
-								"y": 517,
-								"width": 458,
-								"height": 818
+								"x": -10,
+								"y": 506,
+								"width": 395,
+								"height": 837
 							}
 						},
 						"children": []
@@ -115,10 +141,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "trees4",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -42,
-							"y": 457,
-							"width": 458,
-							"height": 878
+							"x": -15,
+							"y": 442,
+							"width": 405,
+							"height": 906
 						},
 						"visible": true,
 						"metadata": {
@@ -127,10 +153,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-trees4-qurbotbg.png",
 							"frame": {
-								"x": -42,
-								"y": 457,
-								"width": 458,
-								"height": 878
+								"x": -15,
+								"y": 442,
+								"width": 405,
+								"height": 906
 							}
 						},
 						"children": []
@@ -141,10 +167,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "mountains1",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -54,
-							"y": 401,
-							"width": 483,
-							"height": 410
+							"x": -1,
+							"y": 398,
+							"width": 377,
+							"height": 413
 						},
 						"visible": true,
 						"metadata": {
@@ -153,10 +179,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-mountains1-mjqwmkyx.png",
 							"frame": {
-								"x": -54,
-								"y": 401,
-								"width": 483,
-								"height": 410
+								"x": -1,
+								"y": 398,
+								"width": 377,
+								"height": 413
 							}
 						},
 						"children": []
@@ -167,10 +193,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "mountains2",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -54,
-							"y": 341,
-							"width": 483,
-							"height": 410
+							"x": -1,
+							"y": 338,
+							"width": 377,
+							"height": 413
 						},
 						"visible": true,
 						"metadata": {
@@ -179,10 +205,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-mountains2-qjuxrta4.png",
 							"frame": {
-								"x": -54,
-								"y": 341,
-								"width": 483,
-								"height": 410
+								"x": -1,
+								"y": 338,
+								"width": 377,
+								"height": 413
 							}
 						},
 						"children": []
@@ -193,10 +219,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "mountains3",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -54,
-							"y": 281,
-							"width": 483,
-							"height": 410
+							"x": -15,
+							"y": 266,
+							"width": 405,
+							"height": 438
 						},
 						"visible": true,
 						"metadata": {
@@ -205,10 +231,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-mountains3-rjjbnzfd.png",
 							"frame": {
-								"x": -54,
-								"y": 281,
-								"width": 483,
-								"height": 410
+								"x": -15,
+								"y": 266,
+								"width": 405,
+								"height": 438
 							}
 						},
 						"children": []
@@ -219,10 +245,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "clouds1",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -76,
-							"y": 282,
-							"width": 527,
-							"height": 220
+							"x": -15,
+							"y": 265,
+							"width": 405,
+							"height": 250
 						},
 						"visible": true,
 						"metadata": {
@@ -231,10 +257,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-clouds1-nkvbmjez.png",
 							"frame": {
-								"x": -76,
-								"y": 282,
-								"width": 527,
-								"height": 220
+								"x": -15,
+								"y": 265,
+								"width": 405,
+								"height": 250
 							}
 						},
 						"children": []
@@ -245,10 +271,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "clouds2",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -76,
-							"y": 232,
-							"width": 527,
-							"height": 220
+							"x": -15,
+							"y": 215,
+							"width": 405,
+							"height": 250
 						},
 						"visible": true,
 						"metadata": {
@@ -257,10 +283,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-clouds2-rtmwmke5.png",
 							"frame": {
-								"x": -76,
-								"y": 232,
-								"width": 527,
-								"height": 220
+								"x": -15,
+								"y": 215,
+								"width": 405,
+								"height": 250
 							}
 						},
 						"children": []
@@ -271,10 +297,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "clouds3",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": -76,
-							"y": 178,
-							"width": 527,
-							"height": 220
+							"x": -15,
+							"y": 161,
+							"width": 405,
+							"height": 250
 						},
 						"visible": true,
 						"metadata": {
@@ -283,10 +309,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-clouds3-memwndk0.png",
 							"frame": {
-								"x": -76,
-								"y": 178,
-								"width": 527,
-								"height": 220
+								"x": -15,
+								"y": 161,
+								"width": 405,
+								"height": 250
 							}
 						},
 						"children": []
@@ -297,10 +323,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"name": "sun",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 8,
-							"y": -180,
-							"width": 360,
-							"height": 360
+							"x": 38,
+							"y": -150,
+							"width": 299,
+							"height": 299
 						},
 						"visible": true,
 						"metadata": {
@@ -309,10 +335,10 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-sun-rdiyrtaz.png",
 							"frame": {
-								"x": 8,
-								"y": -180,
-								"width": 360,
-								"height": 360
+								"x": 38,
+								"y": -150,
+								"width": 299,
+								"height": 299
 							}
 						},
 						"children": []
@@ -326,7 +352,7 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 							"x": 0,
 							"y": 0,
 							"width": 375,
-							"height": 1334
+							"height": 800
 						},
 						"visible": true,
 						"metadata": {
@@ -338,7 +364,7 @@ window.__imported__["parallax@2x/layers.json.js"] = [
 								"x": 0,
 								"y": 0,
 								"width": 375,
-								"height": 1334
+								"height": 800
 							}
 						},
 						"children": []

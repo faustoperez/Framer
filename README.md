@@ -1,5 +1,18 @@
 # Framer
 
+## Parallax
+I just received the new Aaron Draplin book, and I thought it might be interesting to try something in Framer using one of his designs.
+
+Here's the original design:
+
+https://pinterest.com/pin/443815738259624382/
+
+And here's the prototype:
+
+http://share.framerjs.com/p9h212nw0kb4/
+
+![Framer Parallax](/img/framer_parallax.gif?raw=true "Framer Parallax")
+
 ## Animals
 I made this one for my little daughter :-)
 
