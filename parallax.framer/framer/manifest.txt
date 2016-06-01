@@ -1,15 +1,25 @@
 app.coffee
-framer/backups/backup-2016-05-31 09.41.42.coffee
-framer/backups/backup-2016-05-31 10.16.03.coffee
-framer/backups/backup-2016-05-31 10.18.03.coffee
-framer/backups/backup-2016-05-31 10.19.03.coffee
-framer/backups/backup-2016-05-31 10.20.03.coffee
-framer/backups/backup-2016-05-31 10.21.03.coffee
-framer/backups/backup-2016-05-31 10.22.03.coffee
-framer/backups/backup-2016-05-31 10.24.03.coffee
-framer/backups/backup-2016-05-31 10.25.03.coffee
-framer/backups/backup-2016-05-31 10.26.03.coffee
-framer/backups/backup-2016-05-31 10.28.03.coffee
+framer/backups/backup-2016-06-01 13.13.14.coffee
+framer/backups/backup-2016-06-01 13.14.14.coffee
+framer/backups/backup-2016-06-01 13.15.14.coffee
+framer/backups/backup-2016-06-01 13.16.14.coffee
+framer/backups/backup-2016-06-01 13.17.14.coffee
+framer/backups/backup-2016-06-01 13.18.14.coffee
+framer/backups/backup-2016-06-01 13.19.14.coffee
+framer/backups/backup-2016-06-01 13.20.14.coffee
+framer/backups/backup-2016-06-01 13.21.14.coffee
+framer/backups/backup-2016-06-01 13.22.14.coffee
+framer/backups/backup-2016-06-01 13.23.14.coffee
+framer/backups/backup-2016-06-01 13.24.14.coffee
+framer/backups/backup-2016-06-01 13.26.14.coffee
+framer/backups/backup-2016-06-01 13.29.14.coffee
+framer/backups/backup-2016-06-01 13.30.14.coffee
+framer/backups/backup-2016-06-01 13.31.14.coffee
+framer/backups/backup-2016-06-01 13.32.14.coffee
+framer/backups/backup-2016-06-01 13.33.14.coffee
+framer/backups/backup-2016-06-01 13.34.14.coffee
+framer/backups/backup-2016-06-01 13.40.14.coffee
+framer/backups/backup-2016-06-01 13.41.14.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -39,5 +49,26 @@ framer/manifest.txt
 framer/mirror.css
 framer/style.css
 framer/version
+imported/parallax@2x/images/Layer-bg-ouffnkew.png
+imported/parallax@2x/images/Layer-clouds1-nkvbmjez.png
+imported/parallax@2x/images/Layer-clouds2-rtmwmke5.png
+imported/parallax@2x/images/Layer-clouds3-memwndk0.png
+imported/parallax@2x/images/Layer-mountains1-mjqwmkyx.png
+imported/parallax@2x/images/Layer-mountains2-qjuxrta4.png
+imported/parallax@2x/images/Layer-mountains3-rjjbnzfd.png
+imported/parallax@2x/images/Layer-sun-rdiyrtaz.png
+imported/parallax@2x/images/Layer-trees1-mum1odc0.png
+imported/parallax@2x/images/Layer-trees2-q0m4q0y4.png
+imported/parallax@2x/images/Layer-trees3-rjvemtze.png
+imported/parallax@2x/images/Layer-trees4-qurbotbg.png
+imported/parallax@2x/layers.json
+imported/parallax@2x/layers.json.js
+imported/scroll@2x/images/Layer-content-mduxntde.png
+imported/scroll@2x/images/Layer-forest1-ody1otaw.png
+imported/scroll@2x/images/Layer-forest2-qza0mzrf.png
+imported/scroll@2x/images/Layer-sun-munerdhg.png
+imported/scroll@2x/images/Layer-text-nuzgmja2.png
+imported/scroll@2x/layers.json
+imported/scroll@2x/layers.json.js
 index.html
 modules/myModule.coffee
