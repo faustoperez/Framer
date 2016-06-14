@@ -83,14 +83,13 @@ allIndicators[current].states.switch("active")
 page.animationOptions = curve: "spring(200,20,0)"
 
 
+#Events
+
 page.on Events.Move, ->
 	
 		chispas1.x	= 160 + (page.scrollX * 2)
 		chispas2.x = 500 + (page.scrollX * 2)
 		text.x = 233 + (page.scrollX * -2)
-		
-
-
 
 
 # Update indicators and bg color

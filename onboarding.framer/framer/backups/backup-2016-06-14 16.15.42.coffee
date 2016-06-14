@@ -70,7 +70,7 @@ text = new Layer
 	width:142*2, height:89*2
 	image:"images/text.png"
 	superLayer: $.card1
-	y: 690
+	y: 760
 text.x = Align.center
 
 
@@ -82,22 +82,11 @@ allIndicators[current].states.switch("active")
 # Define custom animation curve for page switches
 page.animationOptions = curve: "spring(200,20,0)"
 
-
-page.on Events.Move, ->
-	
-		chispas1.x	= 160 + (page.scrollX * 2)
-		chispas2.x = 500 + (page.scrollX * 2)
-		text.x = 233 + (page.scrollX * -2)
-		
-
-
-
-
 # Update indicators and bg color
 page.on "change:currentPage", ->
 	indicator.states.switch("default") for indicator in allIndicators
 	current = page.horizontalPageIndex(page.currentPage)
-# 	previous = page.horizontalPageIndex(page.previousPage)
+	previous = page.horizontalPageIndex(page.previousPage)
 	allIndicators[current].states.switch("active")
 	bg.animate
     	properties:

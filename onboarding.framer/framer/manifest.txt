@@ -1,26 +1,26 @@
 app.coffee
 app.js
-framer/backups/backup-2016-06-14 13.11.11.coffee
-framer/backups/backup-2016-06-14 13.12.11.coffee
-framer/backups/backup-2016-06-14 13.13.11.coffee
-framer/backups/backup-2016-06-14 13.14.11.coffee
-framer/backups/backup-2016-06-14 13.15.11.coffee
-framer/backups/backup-2016-06-14 13.16.11.coffee
-framer/backups/backup-2016-06-14 13.18.11.coffee
-framer/backups/backup-2016-06-14 13.19.11.coffee
-framer/backups/backup-2016-06-14 13.20.11.coffee
-framer/backups/backup-2016-06-14 13.21.11.coffee
-framer/backups/backup-2016-06-14 13.22.11.coffee
-framer/backups/backup-2016-06-14 13.23.11.coffee
-framer/backups/backup-2016-06-14 13.25.11.coffee
-framer/backups/backup-2016-06-14 13.26.11.coffee
-framer/backups/backup-2016-06-14 13.27.11.coffee
-framer/backups/backup-2016-06-14 13.31.11.coffee
-framer/backups/backup-2016-06-14 13.32.12.coffee
-framer/backups/backup-2016-06-14 13.33.11.coffee
-framer/backups/backup-2016-06-14 13.35.11.coffee
-framer/backups/backup-2016-06-14 13.36.11.coffee
-framer/backups/backup-2016-06-14 13.39.11.coffee
+framer/backups/backup-2016-06-14 16.05.42.coffee
+framer/backups/backup-2016-06-14 16.06.42.coffee
+framer/backups/backup-2016-06-14 16.07.42.coffee
+framer/backups/backup-2016-06-14 16.10.42.coffee
+framer/backups/backup-2016-06-14 16.11.42.coffee
+framer/backups/backup-2016-06-14 16.12.42.coffee
+framer/backups/backup-2016-06-14 16.14.42.coffee
+framer/backups/backup-2016-06-14 16.15.42.coffee
+framer/backups/backup-2016-06-14 16.17.42.coffee
+framer/backups/backup-2016-06-14 16.20.42.coffee
+framer/backups/backup-2016-06-14 16.21.42.coffee
+framer/backups/backup-2016-06-14 16.22.42.coffee
+framer/backups/backup-2016-06-14 16.23.42.coffee
+framer/backups/backup-2016-06-14 16.24.42.coffee
+framer/backups/backup-2016-06-14 16.25.42.coffee
+framer/backups/backup-2016-06-14 16.26.42.coffee
+framer/backups/backup-2016-06-14 16.30.42.coffee
+framer/backups/backup-2016-06-14 16.31.42.coffee
+framer/backups/backup-2016-06-14 16.32.42.coffee
+framer/backups/backup-2016-06-14 16.33.42.coffee
+framer/backups/backup-2016-06-14 16.34.42.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -51,7 +51,11 @@ framer/style.css
 framer/version
 Icon
 images/bg.png
+images/chispas1.png
+images/chispas2.png
 images/framer-icon.png
+images/joybox.png
+images/text.png
 imported/page-indicators/images/Layer-content-36424452-3B6A-4A23-AA43-1ABC9FB87A84.png
 imported/page-indicators/images/Layer-iconAlbums-669740E0-5E23-4CAB-8442-62B0F917279B.png
 imported/page-indicators/images/Layer-iconPhotos-B3147D7A-D66F-4F77-AAF9-6CFB68D4DABB.png

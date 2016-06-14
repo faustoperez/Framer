@@ -80,15 +80,9 @@ current = page.horizontalPageIndex(page.currentPage)
 allIndicators[current].states.switch("active")
 
 # Define custom animation curve for page switches
-page.animationOptions = curve: "spring(200,20,0)"
+page.animationOptions = curve: "spring(300,30,0)"
 
 
-page.on Events.Move, ->
-	
-		chispas1.x	= 160 + (page.scrollX * 2)
-		chispas2.x = 500 + (page.scrollX * 2)
-		text.x = 233 + (page.scrollX * -2)
-		
 
 
 

@@ -46,7 +46,7 @@ for i in [0...amount]
 
 
 mail = new Layer
-	y:420,
+	y:550,
 	width:99*2, height:104*2
 	image:"images/joybox.png"
 	superLayer: $.card1
@@ -56,22 +56,19 @@ chispas1 = new Layer
 	width:47*2, height:86*2
 	image:"images/chispas1.png"
 	superLayer: $.card1
-	y: 430
+	y: 520
 	x: 160
 
 chispas2 = new Layer
 	width:39*2, height:86*2
 	image:"images/chispas2.png"
 	superLayer: $.card1
-	y: 430
+	y: 520
 	x: 500
 
 text = new Layer
-	width:142*2, height:89*2
-	image:"images/text.png"
-	superLayer: $.card1
-	y: 690
-text.x = Align.center
+	width
+
 
 
 # Set indicator for current page
@@ -82,22 +79,11 @@ allIndicators[current].states.switch("active")
 # Define custom animation curve for page switches
 page.animationOptions = curve: "spring(200,20,0)"
 
-
-page.on Events.Move, ->
-	
-		chispas1.x	= 160 + (page.scrollX * 2)
-		chispas2.x = 500 + (page.scrollX * 2)
-		text.x = 233 + (page.scrollX * -2)
-		
-
-
-
-
 # Update indicators and bg color
 page.on "change:currentPage", ->
 	indicator.states.switch("default") for indicator in allIndicators
 	current = page.horizontalPageIndex(page.currentPage)
-# 	previous = page.horizontalPageIndex(page.previousPage)
+	previous = page.horizontalPageIndex(page.previousPage)
 	allIndicators[current].states.switch("active")
 	bg.animate
     	properties:
