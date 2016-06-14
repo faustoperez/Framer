@@ -1,4 +1,6 @@
 
+
+
 bgcolors = ["#e67e22", "#3498db", "#f1c40f"]
 
 bg = new BackgroundLayer
@@ -48,11 +50,14 @@ page.animationOptions = curve: "spring(200,22,0)"
 # Update indicators
 page.on "change:currentPage", ->
 	indicator.states.switch("default") for indicator in allIndicators
-	current = page.horizontalPageIndex(page.currentPage)
-	previous = page.horizontalPageIndex(page.previousPage)
-	allIndicators[current].states.switch("active")
-	bg.animate
-    	properties:
-        	backgroundColor: bgcolors[current]
 	
+	current = page.horizontalPageIndex(page.currentPage)
+	allIndicators[current].states.switch("active")
+
+# Map the dragging distance to a number between 0 and 1 
+    fraction = Utils.modulate(offset.x, [0, Screen.width], [0,1], true)
+ 
+    # Mix the colors, enable the limit, transition in HUSL 
+    layerA.backgroundColor =
+        Color.mix("red", "yellow", fraction, true, "husl")	
 	

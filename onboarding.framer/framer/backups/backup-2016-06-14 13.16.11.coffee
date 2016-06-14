@@ -1,8 +1,7 @@
+# Made with Framer
+# by Benjamin den Boer
+# www.framerjs.com
 
-bgcolors = ["#e67e22", "#3498db", "#f1c40f"]
-
-bg = new BackgroundLayer
-	backgroundColor: bgcolors[0]
 
 
 # Set-up ScrollComponent
@@ -12,19 +11,19 @@ page = new PageComponent
 
 # Array that will store our layers
 allIndicators = []	
-amount = 3
+amount = 6
 
 # Generate card layers
 for i in [0...amount]
 	card = new Layer 
-		backgroundColor: "transparent"
+		backgroundColor: "#fff"
 		width: page.width, height: page.height
 		x: (page.width)*i, superLayer: page.content
 	
 	indicator = new Layer 
-		backgroundColor: "#fff"
+		backgroundColor: "#222"
 		width: 12, height: 12
-		x: 28 * i, y: 1200
+		x: 28 * i, y: 1167
 		borderRadius: "50%", opacity: 0.2
 		
 	# Stay centered regardless of the amount of cards
@@ -48,11 +47,7 @@ page.animationOptions = curve: "spring(200,22,0)"
 # Update indicators
 page.on "change:currentPage", ->
 	indicator.states.switch("default") for indicator in allIndicators
-	current = page.horizontalPageIndex(page.currentPage)
-	previous = page.horizontalPageIndex(page.previousPage)
-	allIndicators[current].states.switch("active")
-	bg.animate
-    	properties:
-        	backgroundColor: bgcolors[current]
 	
+	current = page.horizontalPageIndex(page.currentPage)
+	allIndicators[current].states.switch("active")
 	

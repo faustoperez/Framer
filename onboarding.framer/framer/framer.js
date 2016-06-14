@@ -14758,12 +14758,10 @@
 /* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var BaseClass, ColorModel, ColorType, _, bound01, convertToPercentage, correctAlpha, cssNames, hslToRgb, inputData, isNumeric, isOnePointZero, isPercentage, libhusl, matchers, numberFromString, pad2, percentToFraction, rgbToHex, rgbToHsl, rgbToRgb, rgbaFromHusl, stringToObject,
+	var BaseClass, ColorModel, ColorType, bound01, convertToPercentage, correctAlpha, cssNames, hslToRgb, inputData, isNumeric, isOnePointZero, isPercentage, libhusl, matchers, numberFromString, pad2, percentToFraction, rgbToHex, rgbToHsl, rgbToRgb, rgbaFromHusl, stringToObject,
 	  bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
 	  extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
 	  hasProp = {}.hasOwnProperty;
-	
-	_ = __webpack_require__(1)._;
 	
 	BaseClass = __webpack_require__(6).BaseClass;
 	
@@ -14861,7 +14859,7 @@
 	        a: this._a
 	      };
 	    }
-	    return _.clone(this._rgb);
+	    return this._rgb;
 	  };
 	
 	  Color.prototype.toRgbString = function() {
@@ -14881,7 +14879,7 @@
 	        a: this.a
 	      };
 	    }
-	    return _.clone(this._hsl);
+	    return this._hsl;
 	  };
 	
 	  Color.prototype.toHusl = function() {
@@ -14895,7 +14893,7 @@
 	        l: husl[2]
 	      };
 	    }
-	    return _.clone(this._husl);
+	    return this._husl;
 	  };
 	
 	  Color.prototype.toHslString = function() {
@@ -19302,7 +19300,7 @@
 	    stateProperties = {};
 	    for (k in properties) {
 	      v = properties[k];
-	      if (_.isString(v) && _.endsWith(k.toLowerCase(), "color") && Color.isColorString(v)) {
+	      if (_.isString(v) && Color.isColorString(v)) {
 	        stateProperties[k] = new Color(v);
 	      } else if (_.isNumber(v) || _.isFunction(v) || _.isBoolean(v) || _.isString(v) || Color.isColorObject(v) || v === null) {
 	        stateProperties[k] = v;
@@ -21103,7 +21101,7 @@
 	var bottom, center, left, right, top, wrapper;
 	
 	center = function(layer, property, offset) {
-	  var borderWidth, parent;
+	  var parent;
 	  if (offset == null) {
 	    offset = 0;
 	  }
@@ -21111,15 +21109,11 @@
 	  if (layer.parent) {
 	    parent = layer.parent;
 	  }
-	  borderWidth = parent.borderWidth;
-	  if (borderWidth == null) {
-	    borderWidth = 0;
-	  }
 	  if (property === "x") {
-	    return (parent.width / 2) - (layer.width / 2) - borderWidth + offset;
+	    return (parent.width / 2) - (layer.width / 2) - parent.borderWidth + offset;
 	  }
 	  if (property === "y") {
-	    return (parent.height / 2) - (layer.height / 2) - borderWidth + offset;
+	    return (parent.height / 2) - (layer.height / 2) - parent.borderWidth + offset;
 	  }
 	  return 0;
 	};
@@ -21140,7 +21134,7 @@
 	};
 	
 	right = function(layer, property, offset) {
-	  var borderWidth, parent;
+	  var parent;
 	  if (offset == null) {
 	    offset = 0;
 	  }
@@ -21151,11 +21145,7 @@
 	  if (layer.parent) {
 	    parent = layer.parent;
 	  }
-	  borderWidth = parent.borderWidth;
-	  if (borderWidth == null) {
-	    borderWidth = 0;
-	  }
-	  return parent.width - (2 * borderWidth) - layer.width + offset;
+	  return parent.width - (2 * parent.borderWidth) - layer.width + offset;
 	};
 	
 	top = function(layer, property, offset) {
@@ -21174,7 +21164,7 @@
 	};
 	
 	bottom = function(layer, property, offset) {
-	  var borderWidth, parent;
+	  var parent;
 	  if (offset == null) {
 	    offset = 0;
 	  }
@@ -21185,11 +21175,7 @@
 	  if (layer.parent) {
 	    parent = layer.parent;
 	  }
-	  borderWidth = parent.borderWidth;
-	  if (borderWidth == null) {
-	    borderWidth = 0;
-	  }
-	  return parent.height - (2 * borderWidth) - layer.height + offset;
+	  return parent.height - (2 * parent.borderWidth) - layer.height + offset;
 	};
 	
 	wrapper = function(f) {
@@ -24962,7 +24948,7 @@
 /* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var DOMEventManager, GestureInputDoubleTapTime, GestureInputEdgeSwipeDistance, GestureInputForceTapDesktop, GestureInputForceTapMobile, GestureInputForceTapMobilePollTime, GestureInputLongPressTime, GestureInputMinimumFingerDistance, GestureInputSwipeThreshold, GestureInputVelocityTime, Utils,
+	var DOMEventManager, GestureInputDoubleTapTime, GestureInputEdgeSwipeDistance, GestureInputForceTapDesktop, GestureInputForceTapMobile, GestureInputForceTapMobilePollTime, GestureInputLongPressTime, GestureInputMinimumFingerDistance, GestureInputSwipeThreshold, GestureInputVelocityTime, TouchEnd, TouchMove, TouchStart, Utils,
 	  bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 	
 	Utils = __webpack_require__(4);
@@ -24986,6 +24972,12 @@
 	GestureInputMinimumFingerDistance = 30;
 	
 	DOMEventManager = __webpack_require__(42).DOMEventManager;
+	
+	TouchStart = ["touchstart", "mousedown"];
+	
+	TouchMove = ["touchmove", "mousemove"];
+	
+	TouchEnd = ["touchend", "mouseup"];
 	
 	exports.GestureInputRecognizer = (function() {
 	  function GestureInputRecognizer() {
@@ -25029,11 +25021,12 @@
 	    this.touchend = bind(this.touchend, this);
 	    this.touchmove = bind(this.touchmove, this);
 	    this.touchstart = bind(this.touchstart, this);
-	    this.startTouch = bind(this.startTouch, this);
-	    this.startMouse = bind(this.startMouse, this);
 	    this.em = new DOMEventManager();
-	    this.em.wrap(window).addEventListener("mousedown", this.startMouse);
-	    this.em.wrap(window).addEventListener("touchstart", this.startTouch);
+	    TouchStart.map((function(_this) {
+	      return function(e) {
+	        return _this.em.wrap(window).addEventListener(e, _this.touchstart);
+	      };
+	    })(this));
 	  }
 	
 	  GestureInputRecognizer.prototype.destroy = function() {
@@ -25045,28 +25038,20 @@
 	    return this.session = null;
 	  };
 	
-	  GestureInputRecognizer.prototype.startMouse = function(event) {
-	    if (this.session) {
-	      return;
-	    }
-	    this.em.wrap(window).addEventListener("mousemove", this.touchmove);
-	    this.em.wrap(window).addEventListener("mouseup", this.touchend);
-	    return this.touchstart(event);
-	  };
-	
-	  GestureInputRecognizer.prototype.startTouch = function(event) {
-	    if (this.session) {
-	      return;
-	    }
-	    this.em.wrap(window).addEventListener("touchmove", this.touchmove);
-	    this.em.wrap(window).addEventListener("touchend", this.touchend);
-	    return this.touchstart(event);
-	  };
-	
 	  GestureInputRecognizer.prototype.touchstart = function(event) {
 	    if (this.session) {
 	      return;
 	    }
+	    TouchMove.map((function(_this) {
+	      return function(e) {
+	        return _this.em.wrap(window).addEventListener(e, _this.touchmove);
+	      };
+	    })(this));
+	    TouchEnd.map((function(_this) {
+	      return function(e) {
+	        return _this.em.wrap(window).addEventListener(e, _this.touchend);
+	      };
+	    })(this));
 	    this.em.wrap(window).addEventListener("webkitmouseforcechanged", this._updateMacForce);
 	    this.session = {
 	      startEvent: this._getGestureEvent(event),
@@ -25108,10 +25093,16 @@
 	        }
 	      }
 	    }
-	    this.em.wrap(window).removeEventListener("mousemove", this.touchmove);
-	    this.em.wrap(window).removeEventListener("mouseup", this.touchend);
-	    this.em.wrap(window).removeEventListener("touchmove", this.touchmove);
-	    this.em.wrap(window).removeEventListener("touchend", this.touchend);
+	    TouchMove.map((function(_this) {
+	      return function(e) {
+	        return _this.em.wrap(window).removeEventListener(e, _this.touchmove);
+	      };
+	    })(this));
+	    TouchEnd.map((function(_this) {
+	      return function(e) {
+	        return _this.em.wrap(window).removeEventListener(e, _this.touchend);
+	      };
+	    })(this));
 	    this.em.wrap(window).addEventListener("webkitmouseforcechanged", this._updateMacForce);
 	    event = this._getGestureEvent(event);
 	    ref = this.session.started;
@@ -25641,13 +25632,13 @@
 /* 54 */
 /***/ function(module, exports) {
 
-	exports.date = 1461154095;
+	exports.date = 1460454431;
 	
 	exports.branch = "master";
 	
-	exports.hash = "b0ed473";
+	exports.hash = "04ee164";
 	
-	exports.build = 1671;
+	exports.build = 1660;
 	
 	exports.version = exports.branch + "/" + exports.hash;
 

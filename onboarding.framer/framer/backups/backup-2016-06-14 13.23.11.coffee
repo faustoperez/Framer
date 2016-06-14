@@ -1,4 +1,6 @@
 
+
+
 bgcolors = ["#e67e22", "#3498db", "#f1c40f"]
 
 bg = new BackgroundLayer
@@ -48,11 +50,11 @@ page.animationOptions = curve: "spring(200,22,0)"
 # Update indicators
 page.on "change:currentPage", ->
 	indicator.states.switch("default") for indicator in allIndicators
+	
 	current = page.horizontalPageIndex(page.currentPage)
-	previous = page.horizontalPageIndex(page.previousPage)
 	allIndicators[current].states.switch("active")
-	bg.animate
-    	properties:
-        	backgroundColor: bgcolors[current]
+
+	bg.backgroundColor = bgcolors[current]
+	
 	
 	
