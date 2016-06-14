@@ -13,7 +13,7 @@ for layer in sketch.content.subLayers
 	if layer isnt bg
 		layer.y -= 400
 		layer.x -= 28
-		layer.superLayer = Framer.d
+		layer.superLayer = Framer.Device.Screen
 		yPos.push(layer.y)
 		layers.push(layer)
 
