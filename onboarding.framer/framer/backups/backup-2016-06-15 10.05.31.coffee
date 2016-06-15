@@ -50,11 +50,9 @@ for i in [0...amount]
 mail_ =
 	page1:
 		y: 420
-		x: 276
 		scale: 1
 	page2:
 		y: 1000
-		x: 276
 		scale: 2
 
 mail = new Layer
@@ -64,7 +62,6 @@ mail = new Layer
 	image:"images/joybox.png"
 	superLayer: $.card1
 mail.x = Align.center
-
 
 
 chispas1 = new Layer
@@ -104,8 +101,7 @@ page.on Events.Move, ->
 	chispas2.x = 500 + (page.scrollX * 2)
 	text.x = 233 + (page.scrollX * -2)
 
-# 	mail.y = Utils.modulate(page.scrollX, [0, page.width], [mail_.page1.y, mail_.page2.y], true)
-# 	mail.x = Utils.modulate(page.scrollX, [0, page.width], [mail_.page1.x, mail_.page2.x], true)
+	mail.y = Utils.modulate(page.scrollX, [page.width, page.width*2], [mail_.page1.y, mail_.page2.y], true)
 
 
 

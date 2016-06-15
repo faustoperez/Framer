@@ -47,25 +47,28 @@ for i in [0...amount]
 	allIndicators.push(indicator)
 
 
-mail_ =
-	page1:
-		y: 420
-		x: 276
-		scale: 1
-	page2:
-		y: 1000
-		x: 276
-		scale: 2
-
 mail = new Layer
-	y: mail_.page1.y,
+	y: 420,
 	width:99*2
 	height:104*2
 	image:"images/joybox.png"
 	superLayer: $.card1
 mail.x = Align.center
 
+ios_photos = new Layer
+	x: 26*2, 
+	y: mail_.page1.y, 
+	width: 91*2, 
+	height: 91*2,
+	image: "images/ios_photos.png"
+	originY: 0
+	index: 3
 
+mail_ =
+	page1:
+		y: 420
+	page2:
+		y: 205*2
 
 chispas1 = new Layer
 	width:47*2, height:86*2
@@ -100,13 +103,13 @@ page.animationOptions = curve: "spring(200,20,0)"
 
 page.on Events.Move, ->
 	
-	chispas1.x	= 160 + (page.scrollX * 2)
-	chispas2.x = 500 + (page.scrollX * 2)
-	text.x = 233 + (page.scrollX * -2)
+		chispas1.x	= 160 + (page.scrollX * 2)
+		chispas2.x = 500 + (page.scrollX * 2)
+		text.x = 233 + (page.scrollX * -2)
 
-# 	mail.y = Utils.modulate(page.scrollX, [0, page.width], [mail_.page1.y, mail_.page2.y], true)
-# 	mail.x = Utils.modulate(page.scrollX, [0, page.width], [mail_.page1.x, mail_.page2.x], true)
 
+
+		
 
 
 # Update indicators and bg color

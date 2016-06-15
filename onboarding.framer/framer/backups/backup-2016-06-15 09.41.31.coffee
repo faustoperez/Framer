@@ -3,10 +3,12 @@
 # Variables
 
 $ = Framer
+
 bgcolors = ["#9b59b6", "#3498db", "#2ecc71"]
 
 bg = new BackgroundLayer
 	backgroundColor: bgcolors[0]
+
 
 # Set-up ScrollComponent
 page = new PageComponent
@@ -27,6 +29,7 @@ for i in [0...amount]
 		x: page.width * i
 		superLayer: page.content
 
+	
 	indicator = new Layer 
 		backgroundColor: "#fff"
 		width: 15
@@ -47,25 +50,12 @@ for i in [0...amount]
 	allIndicators.push(indicator)
 
 
-mail_ =
-	page1:
-		y: 420
-		x: 276
-		scale: 1
-	page2:
-		y: 1000
-		x: 276
-		scale: 2
-
 mail = new Layer
-	y: mail_.page1.y,
-	width:99*2
-	height:104*2
+	y:420,
+	width:99*2, height:104*2
 	image:"images/joybox.png"
 	superLayer: $.card1
 mail.x = Align.center
-
-
 
 chispas1 = new Layer
 	width:47*2, height:86*2
@@ -88,6 +78,7 @@ text = new Layer
 	y: 690
 text.x = Align.center
 
+
 # Set indicator for current page
 page.snapToPage(page.content.subLayers[0])
 current = page.horizontalPageIndex(page.currentPage)
@@ -96,16 +87,14 @@ allIndicators[current].states.switch("active")
 # Define custom animation curve for page switches
 page.animationOptions = curve: "spring(200,20,0)"
 
-# Events
 
 page.on Events.Move, ->
 	
-	chispas1.x	= 160 + (page.scrollX * 2)
-	chispas2.x = 500 + (page.scrollX * 2)
-	text.x = 233 + (page.scrollX * -2)
+		chispas1.x	= 160 + (page.scrollX * 2)
+		chispas2.x = 500 + (page.scrollX * 2)
+		text.x = 233 + (page.scrollX * -2)
+		
 
-# 	mail.y = Utils.modulate(page.scrollX, [0, page.width], [mail_.page1.y, mail_.page2.y], true)
-# 	mail.x = Utils.modulate(page.scrollX, [0, page.width], [mail_.page1.x, mail_.page2.x], true)
 
 
 
