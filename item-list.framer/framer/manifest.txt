@@ -1,0 +1,66 @@
+app.coffee
+framer/backups/backup-2016-06-16 16.08.11.coffee
+framer/backups/backup-2016-06-16 16.09.11.coffee
+framer/backups/backup-2016-06-16 16.10.11.coffee
+framer/backups/backup-2016-06-16 16.11.11.coffee
+framer/backups/backup-2016-06-16 16.46.39.coffee
+framer/backups/backup-2016-06-16 16.47.39.coffee
+framer/backups/backup-2016-06-16 16.48.40.coffee
+framer/backups/backup-2016-06-16 16.49.40.coffee
+framer/backups/backup-2016-06-16 16.50.39.coffee
+framer/backups/backup-2016-06-16 16.53.39.coffee
+framer/backups/backup-2016-06-16 16.54.39.coffee
+framer/backups/backup-2016-06-16 16.55.39.coffee
+framer/backups/backup-2016-06-16 16.57.39.coffee
+framer/backups/backup-2016-06-16 16.58.39.coffee
+framer/backups/backup-2016-06-16 16.59.39.coffee
+framer/backups/backup-2016-06-16 17.00.39.coffee
+framer/backups/backup-2016-06-16 17.01.39.coffee
+framer/backups/backup-2016-06-16 17.02.39.coffee
+framer/backups/backup-2016-06-16 17.03.39.coffee
+framer/backups/backup-2016-06-16 17.04.39.coffee
+framer/backups/backup-2016-06-16 17.05.39.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+imported/egg@2x/images/Layer-egg-qzm2nuqz.png
+imported/egg@2x/images/Layer-eggtext-mtizmdyy.png
+imported/egg@2x/images/Layer-item1-otjgrdqy.png
+imported/egg@2x/images/Layer-item2-reu5rjff.png
+imported/egg@2x/images/Layer-item3-muzgrkzg.png
+imported/egg@2x/images/Layer-item4-qjyxnty5.png
+imported/egg@2x/images/Layer-item5-nzhfqurg.png
+imported/egg@2x/images/Layer-item6-mkfem0q2.png
+imported/egg@2x/images/Layer-item7-ndnfrkyw.png
+imported/egg@2x/images/Layer-item8-muzbnkrf.png
+imported/egg@2x/layers.json
+imported/egg@2x/layers.json.js
+index.html
+modules/myModule.coffee
