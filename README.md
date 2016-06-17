@@ -1,5 +1,18 @@
 # Framer
 
+## List
+
+Another Framer exercise: unordered list Apple menu style, animated background color.
+
+Interaction code based on http://framerjs.com/gallery/preview/#mobile-navigation.framer
+
+Prototype:
+
+http://share.framerjs.com/snlrtr1poi5r/
+
+![Framer List](/img/framer_list.gif?raw=true "Framer List")
+
+
 ## Parallax
 I just received the new Aaron Draplin book, and I thought it might be interesting to try something in Framer using one of his designs.
 

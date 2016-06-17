@@ -15,6 +15,8 @@ bg = new BackgroundLayer
 bg.superLayer = $.artboard
 bg.placeBehind($.egg)
 
+# States
+
 for item in $.list.subLayers
 	item.originY = 3
 	item.scale = 1.1 
@@ -23,8 +25,6 @@ for item in $.list.subLayers
 	item.states.add
 		open:
 			opacity: 1, scale: 1
-
-# States
 
 $.egg.states.add
 	default:
@@ -38,9 +38,9 @@ $.egg.states.add
 
 $.eggtext.states.add
 	open:
-		scale: .6
+		scale: .7
 		y: 331
-		x: 342
+		x: 332
 
 $.egg.states.switchInstant("default")
 
