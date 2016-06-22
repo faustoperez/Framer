@@ -1,3 +1,10 @@
+###
+Fausto Pérez
+https://github.com/faustoperez/Framer
+https://dribbble.com/faustoperez
+###
+
+
 # Import file "animals" (sizes and positions are scaled 1:2)
 sketch = Framer.Importer.load("imported/animals@2x")
 
