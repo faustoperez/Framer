@@ -3,7 +3,7 @@ Fausto Pérez
 https://github.com/faustoperez/Framer
 https://dribbble.com/faustoperez
 
-Firebase code from by Marc Krenn
+Firebase code by Marc Krenn
 https://github.com/marckrenn/framer-Firebase
 ###
 

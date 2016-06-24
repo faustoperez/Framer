@@ -1,5 +1,24 @@
 # Framer
 
+## Persistent like-counts
+
+Persistent like-counts with Framer and Firebase, using the Marc Krenn module and code at https://github.com/marckrenn/framer-Firebase
+
+Elements used in this exercise:
+
+- Firebase
+- Google fonts import
+- svg images
+- CSS3 text shadows
+
+If you like it, please click the prototype :-)
+
+http://share.framerjs.com/0r9anmz6apds/
+
+...and yes, that's my terrible handwriting.
+
+![Framer Counter](/img/framer_counter.gif?raw=true "Framer Counter")
+
 ## List
 
 Another Framer exercise: unordered list Apple menu style, animated background color.
