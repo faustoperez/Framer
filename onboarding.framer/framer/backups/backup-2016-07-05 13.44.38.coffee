@@ -51,11 +51,11 @@ mail_ =
 	page1:
 		y: 420
 		x: 276
-		scale: 1.4
+		scale: 1
 	page2:
-		y: 420
+		y: page.height / 2
 		x: 1030
-		scale: 2.5
+		scale: 2
 
 mail = new Layer
 	y: mail_.page1.y,
@@ -63,7 +63,6 @@ mail = new Layer
 	height:104*2
 	image:"images/joybox.png"
 	superLayer: $.card1
-	scale: mail_.page1.scale
 mail.x = Align.center
 
 
@@ -73,7 +72,7 @@ chispas1 = new Layer
 	image:"images/chispas1.png"
 	superLayer: $.card1
 	y: 430
-	x: 110
+	x: 90
 
 chispas2 = new Layer
 	width:39*2, height:86*2

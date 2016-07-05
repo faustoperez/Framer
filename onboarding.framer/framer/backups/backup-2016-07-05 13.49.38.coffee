@@ -63,7 +63,7 @@ mail = new Layer
 	height:104*2
 	image:"images/joybox.png"
 	superLayer: $.card1
-	scale: mail_.page1.scale
+	scale: mail_.page
 mail.x = Align.center
 
 
