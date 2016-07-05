@@ -54,7 +54,7 @@ mail_ =
 		scale: 1
 	page2:
 		y: page.height / 2
-		x: 1030
+		x: page.width  + 250
 		scale: 2
 
 mail = new Layer
@@ -94,7 +94,7 @@ current = page.horizontalPageIndex(page.currentPage)
 allIndicators[current].states.switch("active")
 
 # Define custom animation curve for page switches
-page.animationOptions = curve: "spring(400,40,0)"
+page.animationOptions = curve: "spring(200,20,0)"
 
 # Events
 
