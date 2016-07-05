@@ -81,11 +81,13 @@ chispas2 = new Layer
 	y: 430
 	x: 570
 
+
 text = new Layer
 	width:142*2, height:89*2
 	image:"images/text.png"
 	superLayer: $.card1
 	y: 820
+	scale: 1.5
 text.x = Align.center
 
 # Set indicator for current page

@@ -53,9 +53,9 @@ mail_ =
 		x: 276
 		scale: 1
 	page2:
-		y: page.height / 2
-		x: page.width  + 250
-		scale: 2
+		y: page.height + 0
+		x: 0
+		scale: 1
 
 mail = new Layer
 	y: mail_.page1.y,
@@ -63,6 +63,7 @@ mail = new Layer
 	height:104*2
 	image:"images/joybox.png"
 	superLayer: $.card1
+	scale: 2
 mail.x = Align.center
 
 
@@ -73,6 +74,7 @@ chispas1 = new Layer
 	superLayer: $.card1
 	y: 430
 	x: 90
+	scale: 1.5
 
 chispas2 = new Layer
 	width:39*2, height:86*2
@@ -80,12 +82,14 @@ chispas2 = new Layer
 	superLayer: $.card1
 	y: 430
 	x: 570
+	scale: 1.5
 
 text = new Layer
 	width:142*2, height:89*2
 	image:"images/text.png"
 	superLayer: $.card1
 	y: 820
+	scale: 1.5
 text.x = Align.center
 
 # Set indicator for current page
@@ -106,7 +110,6 @@ page.on Events.Move, ->
 
 	mail.y = Utils.modulate(page.scrollX, [0, page.width], [mail_.page1.y, mail_.page2.y], true)
 	mail.x = Utils.modulate(page.scrollX, [0, page.width], [mail_.page1.x, mail_.page2.x], true)
-	mail.scale = Utils.modulate(page.scrollX, [0, page.width], [mail_.page1.scale, mail_.page2.scale], true)
 
 
 
@@ -120,4 +123,6 @@ page.on "change:currentPage", ->
 		properties:
 			backgroundColor: bgcolors[current]
 
+	mail.y	= Utils.modulate(page.scrollX, [page.width, page.width*2], 
+							[mail_.page1.y, mail_.page2.y], true)
 
