@@ -1,4 +1,5 @@
 
+
 # Variables
 
 $ = Framer
@@ -50,20 +51,18 @@ mail_ =
 	page1:
 		y: 420
 		x: 276
-		scale: 2
+		scale: 1.4
 	page2:
 		y: 500
 		x: 900
 		scale: 1
 
 mail = new Layer
-	y: mail_.page1.y
+	y: mail_.page1.y,
 	image:"images/joybox.png"
 	superLayer: $.card1
 	scale: mail_.page1.scale
-	x: mail_.page1.x
-	y: mail_.page1.y
-
+mail.x = Align.center
 
 
 
