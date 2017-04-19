@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<script type="text/javascript">
+		// This automatically sets the right viewport scale on mobile devices
+		(function() {
+ 		var scale = 1 / window.devicePixelRatio
+ 		var viewport = "width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no"
+ 		var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+ 		if (iOS) { viewport += ", shrink-to-fit=no" }
+ 		document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+		})()
+		</script>
+
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png">
+		<link rel="apple-touch-icon" href="framer/images/icon-76.png" sizes="76x76">
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="framer/images/icon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="framer/images/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="framer/images/icon-192.png" sizes="192x192">
+
+		<link rel="stylesheet" type="text/css" href="framer/style.css?nocache=6d40bc53861208d298f85019e08849ff">
+
+		<script src="framer/coffee-script.js"></script>
+		<script src="framer/framer.js?nocache=001556a56a89a4995a3655e598216c22"></script>
+		<script src="framer/framer.generated.js?nocache=50700cf21816378049d60f4ce7f9dd3c"></script>
+		<script src="framer/framer.modules.js?nocache=877d351a2de3e8d3912dc092d623b394"></script>
+		<script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 1018;window.__framerNew = function (n,loc,th,i){if (i == null) { return i };i.__framerInstanceInfo = _.defaults({name:n,location:loc,hash:th},i.__framerInstanceInfo);_.defaults(i.__framerInstanceInfo,{name:"Untitled"});return i;};(function() {
+  var VRComponent, VRLayer, flipchart_tooltip, flipchart_trigger, i, j, k, pointer, postits_tooltip, postits_trigger, ref, ref1, ref2, screen_tooltip, screen_trigger, table_tooltip, table_trigger, tooltips, triggers, tv_tooltip, tv_trigger, vr, wall_tooltip, wall_trigger, window_tooltip, window_trigger;
+
+  ref = require("VRComponent"), VRComponent = ref.VRComponent, VRLayer = ref.VRLayer;
+
+  vr = window.__framerNew("vr", "6:9-18:0", "?",new VRComponent({
+    front: "images/front.jpg",
+    right: "images/right.jpg",
+    left: "images/left.jpg",
+    back: "images/back.jpg",
+    bottom: "images/bottom.jpg",
+    top: "images/top.jpg",
+    heading: 88,
+    elevation: 0
+  }));
+
+  pointer = window.__framerNew("pointer", "19:14-31:0", "?",new VRLayer({
+    width: 80,
+    height: 80,
+    borderRadius: 100,
+    backgroundColor: "transparent",
+    borderWidth: 4,
+    borderColor: "#FEC801",
+    x: Align.center,
+    y: Align.center
+  }));
+
+  window_trigger = window.__framerNew("window_trigger", "32:21-35:0", "?",new VRLayer({
+    elevation: 4,
+    heading: 1
+  }));
+
+  screen_trigger = window.__framerNew("screen_trigger", "36:21-39:0", "?",new VRLayer({
+    elevation: 5,
+    heading: 88
+  }));
+
+  table_trigger = window.__framerNew("table_trigger", "40:20-43:0", "?",new VRLayer({
+    elevation: -22,
+    heading: 91
+  }));
+
+  wall_trigger = window.__framerNew("wall_trigger", "44:19-47:0", "?",new VRLayer({
+    elevation: 0,
+    heading: 177
+  }));
+
+  flipchart_trigger = window.__framerNew("flipchart_trigger", "48:24-51:0", "?",new VRLayer({
+    elevation: -3,
+    heading: 243
+  }));
+
+  tv_trigger = window.__framerNew("tv_trigger", "52:17-55:0", "?",new VRLayer({
+    elevation: -1,
+    heading: 294
+  }));
+
+  postits_trigger = window.__framerNew("postits_trigger", "56:22-60:27", "?",new VRLayer({
+    elevation: -18,
+    heading: 266
+  }));
+
+  triggers = [window_trigger, screen_trigger, table_trigger, wall_trigger, flipchart_trigger, tv_trigger, postits_trigger];
+
+  for (i = j = 0, ref1 = triggers.length; 0 <= ref1 ? j < ref1 : j > ref1; i = 0 <= ref1 ? ++j : --j) {
+    triggers[i].image = "images/plus.png";
+    triggers[i].width = 50;
+    triggers[i].height = 50;
+    vr.projectLayer(triggers[i]);
+  }
+
+  window_tooltip = window.__framerNew("window_tooltip", "73:21-77:0", "?",new VRLayer({
+    name: "window_tooltip",
+    elevation: 8,
+    heading: 7
+  }));
+
+  screen_tooltip = window.__framerNew("screen_tooltip", "78:21-82:0", "?",new VRLayer({
+    name: "screen_tooltip",
+    elevation: 9,
+    heading: 94
+  }));
+
+  table_tooltip = window.__framerNew("table_tooltip", "83:20-87:0", "?",new VRLayer({
+    name: "table_tooltip",
+    elevation: -18,
+    heading: 97
+  }));
+
+  wall_tooltip = window.__framerNew("wall_tooltip", "88:19-92:0", "?",new VRLayer({
+    name: "wall_tooltip",
+    elevation: 4,
+    heading: 183
+  }));
+
+  flipchart_tooltip = window.__framerNew("flipchart_tooltip", "93:24-97:0", "?",new VRLayer({
+    name: "flipchart_tooltip",
+    elevation: 1,
+    heading: 249
+  }));
+
+  tv_tooltip = window.__framerNew("tv_tooltip", "98:17-102:0", "?",new VRLayer({
+    name: "tv_tooltip",
+    elevation: 3,
+    heading: 300
+  }));
+
+  postits_tooltip = window.__framerNew("postits_tooltip", "103:22-108:28", "?",new VRLayer({
+    name: "postits_tooltip",
+    elevation: -14,
+    heading: 272
+  }));
+
+  tooltips = [window_tooltip, screen_tooltip, table_tooltip, wall_tooltip, flipchart_tooltip, tv_tooltip, postits_tooltip];
+
+  for (i = k = 0, ref2 = tooltips.length; 0 <= ref2 ? k < ref2 : k > ref2; i = 0 <= ref2 ? ++k : --k) {
+    tooltips[i].image = "images/" + tooltips[i].name + ".png";
+    tooltips[i].width = 240;
+    tooltips[i].height = 100;
+    tooltips[i].originX = 0;
+    tooltips[i].originY = 1;
+    tooltips[i].states.add({
+      close: {
+        scale: 0,
+        opacity: 0
+      },
+      open: {
+        scale: 1,
+        opacity: 1
+      }
+    });
+    tooltips[i].states.switchInstant("close");
+    vr.projectLayer(tooltips[i]);
+  }
+
+  window.onresize = function() {
+    vr.size = Screen.size;
+    return pointer.center();
+  };
+
+  vr.on(Events.OrientationDidChange, function(data) {
+    var curve, elevation, elevationProximity, heading, headingProximity, l, ref3, results, tilt, triggerDistance;
+    heading = data.heading;
+    elevation = data.elevation;
+    tilt = data.tilt;
+    curve = "spring(400, 25, 0)";
+    results = [];
+    for (i = l = 0, ref3 = triggers.length; 0 <= ref3 ? l < ref3 : l > ref3; i = 0 <= ref3 ? ++l : --l) {
+      triggerDistance = 2;
+      headingProximity = Math.abs(heading - triggers[i].heading);
+      elevationProximity = Math.abs(elevation - triggers[i].elevation);
+      if ((headingProximity < triggerDistance) && (elevationProximity < triggerDistance)) {
+        results.push(tooltips[i].states["switch"]("open", {
+          curve: curve
+        }));
+      } else {
+        results.push(tooltips[i].states["switch"]("close", {
+          curve: curve
+        }));
+      }
+    }
+    return results;
+  });
+
+}).call(this);
+})</script>
+
+	</head>
+	<body>
+	</body>
+</html>
