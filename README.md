@@ -1,5 +1,15 @@
 # Framer
 
+## Framer VR module
+
+Exercise for the 2nd Madrid Meetup Apr 2017 using the Framer VR module https://github.com/jonastreub/VRComponent
+
+Prototype:
+
+https://framer.cloud/FOVRi/
+
+![Framer VR](/img/framer_vr.gif?raw=true "Framer VR")
+
 ## Persistent like-counts
 
 Persistent like-counts with Framer and Firebase, using the Marc Krenn module and code at https://github.com/marckrenn/framer-Firebase

@@ -1,26 +1,26 @@
 app.coffee
 app.js
-framer/backups/backup-2017-04-19 14.59.17.coffee
-framer/backups/backup-2017-04-19 15.00.17.coffee
-framer/backups/backup-2017-04-19 15.01.17.coffee
-framer/backups/backup-2017-04-19 15.02.17.coffee
-framer/backups/backup-2017-04-19 15.03.17.coffee
-framer/backups/backup-2017-04-19 15.04.17.coffee
-framer/backups/backup-2017-04-19 15.14.17.coffee
-framer/backups/backup-2017-04-19 15.15.17.coffee
-framer/backups/backup-2017-04-19 15.16.17.coffee
-framer/backups/backup-2017-04-19 15.17.17.coffee
-framer/backups/backup-2017-04-19 15.18.17.coffee
-framer/backups/backup-2017-04-19 15.19.17.coffee
-framer/backups/backup-2017-04-19 15.20.17.coffee
-framer/backups/backup-2017-04-19 15.21.17.coffee
-framer/backups/backup-2017-04-19 15.22.17.coffee
-framer/backups/backup-2017-04-19 15.23.17.coffee
-framer/backups/backup-2017-04-19 15.25.17.coffee
-framer/backups/backup-2017-04-19 15.41.17.coffee
-framer/backups/backup-2017-04-19 15.51.17.coffee
-framer/backups/backup-2017-04-19 15.52.17.coffee
-framer/backups/backup-2017-04-19 15.54.17.coffee
+framer/backups/backup-2017-04-19 16.51.53.coffee
+framer/backups/backup-2017-04-19 16.53.53.coffee
+framer/backups/backup-2017-04-19 16.54.53.coffee
+framer/backups/backup-2017-04-19 16.55.53.coffee
+framer/backups/backup-2017-04-19 16.56.53.coffee
+framer/backups/backup-2017-04-19 16.57.53.coffee
+framer/backups/backup-2017-04-19 16.58.53.coffee
+framer/backups/backup-2017-04-19 16.59.53.coffee
+framer/backups/backup-2017-04-19 17.00.53.coffee
+framer/backups/backup-2017-04-19 17.02.53.coffee
+framer/backups/backup-2017-04-19 17.03.53.coffee
+framer/backups/backup-2017-04-19 17.05.53.coffee
+framer/backups/backup-2017-04-20 09.05.49.coffee
+framer/backups/backup-2017-04-20 09.06.49.coffee
+framer/backups/backup-2017-04-20 09.15.28.coffee
+framer/backups/backup-2017-04-20 09.59.11.coffee
+framer/backups/backup-2017-04-20 10.09.11.coffee
+framer/backups/backup-2017-04-20 10.10.11.coffee
+framer/backups/backup-2017-04-20 10.12.11.coffee
+framer/backups/backup-2017-04-20 10.18.19.coffee
+framer/backups/backup-2017-04-20 10.20.19.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js

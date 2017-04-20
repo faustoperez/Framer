@@ -13,6 +13,7 @@ vr = new VRComponent
 	top: "images/top.jpg"
 	heading: 88
 	elevation: 0
+# 	distance: 900
 # 	perspective: 1100
 
 # Pointer
@@ -106,6 +107,7 @@ postits_tooltip = new VRLayer
 	elevation: -14
 	heading: 272
 
+
 # Create arrays from tooltips
 tooltips = [window_tooltip, screen_tooltip, table_tooltip, wall_tooltip, flipchart_tooltip, tv_tooltip, postits_tooltip]
 
@@ -142,11 +144,12 @@ vr.on Events.OrientationDidChange, (data) ->
 	heading = data.heading
 	elevation = data.elevation
 	tilt = data.tilt
-	
+
 	curve = "spring(400, 25, 0)"
+	triggerDistance = 2
 	
 	for i in [0...triggers.length]
-		triggerDistance = 2
+	
 		headingProximity = Math.abs(heading - triggers[i].heading)
 		elevationProximity = Math.abs(elevation - triggers[i].elevation)
 		
