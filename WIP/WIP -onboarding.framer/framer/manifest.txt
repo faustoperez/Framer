@@ -1,15 +1,12 @@
 app.coffee
 app.js
-framer/backups/backup-2017-03-14 08.54.34.coffee
-framer/backups/backup-2017-03-14 08.55.34.coffee
-framer/backups/backup-2017-03-14 08.56.34.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
 framer/framer.init.js
 framer/framer.js
-framer/framer.js.map
 framer/framer.modules.js
+framer/framer.vekter.js
 framer/images/cursor-active.png
 framer/images/cursor-active@2x.png
 framer/images/cursor.png

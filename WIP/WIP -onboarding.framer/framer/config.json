@@ -1,16 +1,20 @@
 {
   "orientation" : 0,
   "updateDelay" : 0.3,
+  "designModeSelected" : 0,
+  "cachedDeviceHeight" : 2208,
   "contentScale" : 1,
   "fullScreen" : false,
+  "cachedDeviceWidth" : 1242,
+  "deviceType" : "apple-iphone-7-plus-silver",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
     "Filters" : false
   },
-  "deviceType" : "apple-iphone-7-plus-silver",
   "projectId" : "10CD6DB0-62A2-4708-A463-63387C5A48FC",
   "deviceOrientation" : 0,
   "selectedHand" : "",
+  "showBezel" : 0,
   "foldedCodeRanges" : [
     "{0, 125}"
   ],

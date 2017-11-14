@@ -1,0 +1,11 @@
+{
+  "version" : 10,
+  "root" : {
+    "id" : "'vrc@liV",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+
+    ]
+  }
+}

@@ -13,7 +13,7 @@
   "deviceOrientation" : 0,
   "selectedHand" : "",
   "foldedCodeRanges" : [
-
+    "{111, 1503}"
   ],
   "deviceScale" : 1
 }

@@ -1,33 +1,9 @@
 app.coffee
-framer/backups/backup-2017-04-25 15.49.23.coffee
-framer/backups/backup-2017-04-25 15.50.23.coffee
-framer/backups/backup-2017-04-25 15.52.23.coffee
-framer/backups/backup-2017-04-25 15.53.23.coffee
-framer/backups/backup-2017-04-25 15.55.23.coffee
-framer/backups/backup-2017-04-25 15.56.23.coffee
-framer/backups/backup-2017-04-25 15.57.23.coffee
-framer/backups/backup-2017-04-25 16.03.04.coffee
-framer/backups/backup-2017-04-25 16.04.04.coffee
-framer/backups/backup-2017-04-25 16.06.04.coffee
-framer/backups/backup-2017-04-25 16.32.19.coffee
-framer/backups/backup-2017-04-27 09.05.08.coffee
-framer/backups/backup-2017-04-27 09.06.08.coffee
-framer/backups/backup-2017-04-27 09.07.08.coffee
-framer/backups/backup-2017-04-27 09.08.08.coffee
-framer/backups/backup-2017-04-27 09.10.08.coffee
-framer/backups/backup-2017-04-27 09.11.08.coffee
-framer/backups/backup-2017-04-27 09.14.08.coffee
-framer/backups/backup-2017-04-27 09.15.08.coffee
-framer/backups/backup-2017-04-27 09.16.08.coffee
-framer/backups/backup-2017-04-27 09.17.08.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
 framer/framer.init.js
 framer/framer.js
-framer/framer.js.map
-framer/framer.js.map.old
-framer/framer.js.old
 framer/framer.modules.js
 framer/images/cursor-active.png
 framer/images/cursor-active@2x.png
