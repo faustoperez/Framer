@@ -1,5 +1,19 @@
 # Framer
 
+## Framer Pianosurfing Onboarding
+
+This is the prototype I'm presenting at the Madrid Framer Meetup Nov 17th 2017.
+
+Illustrations and Pianosurfing concept by Sandra García (http://sandragarcia.es/Pianosurfing) 🙌
+
+Prototype:
+
+https://framer.cloud/olnie/
+
+Code inspiration by Tes Mat https://share.framerjs.com/lba7gxmhrrpl/
+
+![Framer VR](/img/framer_onboarding.gif?raw=true "Pianosurfing Framer Onboarding")
+
 ## Framer VR module
 
 Exercise for the 2nd Madrid Meetup Apr 2017 using the Framer VR module https://github.com/jonastreub/VRComponent
@@ -67,8 +81,8 @@ This is the first assignment in the #dailyframer challenge at dailyframer.com. I
 
 http://share.framerjs.com/2ic2evvr43pz/
 
-Background image by Dmitri Popov at https://unsplash.com/@dmpop 
-Origami icon from http://www.webalys.com/nova/ 
+Background image by Dmitri Popov at https://unsplash.com/@dmpop
+Origami icon from http://www.webalys.com/nova/
 Interaction based on Robert Mion's prototype at https://share.framerjs.com/d8if88j1qtkm/
 
 ![Framer Login](/img/framer_login.gif?raw=true "Framer Login")

@@ -4,6 +4,10 @@ amount = 2
 bg = new BackgroundLayer
 	backgroundColor: "#fff"
 
+Canvas.backgroundColor = "#EEFAFA"
+Framer.Device.phone.style.webkitFilter =
+ "drop-shadow(0px 0px 25px rgba(55, 205, 205, .5))"
+
 # Set-up PageComponent
 page = new PageComponent
 	width: Screen.width
@@ -52,7 +56,6 @@ window.card1.index = 2
 window.card2.index = 1
 
 # Cup 1
-
 cup1_ =
 	page1:
 		x: 298
@@ -63,11 +66,10 @@ cup1_ =
 
 cup1.x = cup1_.page1.x
 cup1.y = cup1_.page1.y
-cup1.superLayer = cup1.card1
+cup1.superLayer = window.card1
 
 
 # Plant
-
 plant_ =
 	page1:
 		x: 243
@@ -81,7 +83,6 @@ plant.y = plant_.page1.y
 plant.superLayer = window.card1
 
 # Laptop
-
 laptop_ =
 	page1:
 		x: 197
@@ -127,7 +128,6 @@ head.y = head_.page1.y
 head.superLayer = window.card1
 
 # Host
-
 host_ =
 	page1:
 		x: 200
@@ -173,7 +173,6 @@ cup2.y = cup2_.page1.y
 cup2.superLayer = window.card2
 
 # Cup3
-
 cup3_ =
 	page1:
 		x: 15000
@@ -218,7 +217,7 @@ page.on "change:currentPage", ->
 
 
 #### Splash screen ####
-splash.placeBefore(cup1)
+splash.placeBefore(indicator)
 splash.ignoreEvents = false  # disable scrolling or swiping when the splash screen is still visible
 
 Utils.delay 2.0, ->
